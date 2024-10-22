@@ -34,7 +34,8 @@ return [
     'boolean' => 'The :attribute field must be true or false.',
     'confirmed' => 'The :attribute confirmation does not match.',
     'current_password' => 'The password is incorrect.',
-    'date' => 'The :attribute is not a valid date.',
+    'date' => ':attributeには有効な日付を指定してください。',
+    // 'date' => 'The :attribute is not a valid date.',
     'date_equals' => 'The :attribute must be a date equal to :date.',
     'date_format' => 'The :attribute does not match the format :format.',
     'decimal' => 'The :attribute must have :decimal decimal places.',
@@ -186,6 +187,13 @@ return [
         'name' => '名',
         'memo' => 'メモ',
         'price' => '料金',
+        'kana' => 'カナ',
+        'tel' => '電話番号',
+        'email' => 'メールアドレス',
+        'postcode' => '郵便番号',
+        'address' => '住所',
+        'birthday' => '誕生日',
+        'gender' => '性別',
     ],
 
 ];
