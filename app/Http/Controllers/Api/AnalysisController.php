@@ -49,13 +49,13 @@ class AnalysisController extends Controller
 
         // }
 
-        //正常に動くから残して作業する
-        // return response()->json([
-        //     'data' => $data,
-        //     'type' => $request->type,
-        //     'labels' => $labels,
-        //     'totals' => $totals,
-        // ], Response::HTTP_OK);
+        //RFM以外
+        return response()->json([
+            'data' => $data,
+            'type' => $request->type,
+            'labels' => $labels,
+            'totals' => $totals,
+        ], Response::HTTP_OK);
 
     }
 }
